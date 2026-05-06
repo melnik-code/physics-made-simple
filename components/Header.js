@@ -42,7 +42,24 @@ export default function Header() {
       <header className="site-header">
         <div className="header-inner">
           <Link className="brand" href="/">
-            <span className="brand-mark">φ</span>
+            <svg
+              aria-hidden="true"
+              className="brand-mark"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="100" height="100" fill="#16283d" />
+              <text
+                x="50"
+                y="62"
+                textAnchor="middle"
+                fontSize="60"
+                fill="#ffffff"
+                fontFamily="Arial, Helvetica, sans-serif"
+              >
+                φ
+              </text>
+            </svg>
             <span>Физика просто</span>
           </Link>
           <div className="header-nav-slot">
