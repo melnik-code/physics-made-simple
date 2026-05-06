@@ -36,8 +36,11 @@ export default function ContactsPage() {
           <Card accent="#2563eb">
             <h3>Почта</h3>
             <p className="muted">
-              Укажите здесь рабочий email проекта (например,{" "}
-              <span style={{ whiteSpace: "nowrap" }}>hello@physics-prosto.ru</span>).
+              Пишите на{" "}
+              <a href="mailto:melnik.dev@icloud.com">
+                <span style={{ whiteSpace: "nowrap" }}>melnik.dev@icloud.com</span>
+              </a>
+              .
             </p>
           </Card>
           <Card accent="#12805c">
